@@ -5,43 +5,47 @@
 }
 .banner{
     width: 100%;
-    height: 700px;
+    height: 110vh;
     background-image: url('../images/banner/banner2.png');
     background-size: cover;
 }
+.banner-content{
+    padding: 50px 50px 0 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
 .banner-title{
     width: 515px;
-    height: 180px;
-    font-size:50px;
-    font-weight: 700;
-    position: relative;
-    left: 55%;
-    top: 30%;
-    margin-bottom: 0;
-    font-size: 60px;
+    height: 250px;
+    font-size:65px;
     text-align: right;
+    position: relative;
+    padding-top: 150px;
+    padding-right: 180px;
+    font-weight: 700;
+    margin-bottom: 30px;
 }
 .banner-dis{
     width: 400px;
     text-align: right;
     position: relative;
-    top: 35%;
-    left: 62%;
-    margin-top: 30px;
     font-size: 16px;
+    margin-top: 10px;
+    padding-right: 180px;
 }
 .banner-btn{
-    width: 130px;
+    width: 120px;
     height: 50px;
     border-radius: 5px;
     position: relative;
-    left: 78%;
-    top:35%;
-    margin-top: 23px;
-    background: #F15B22;
-    border: 0px;
-    color: #FFF;
-    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    right: 14%;
+    font-size: 15px;
     font-weight: 700;
-    
+    border: 0px;
+    background-color: #F15B22;
+    color: #FFF;
 }
