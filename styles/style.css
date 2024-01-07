@@ -127,6 +127,7 @@ main section {
     background: url(../images/gradient1.png), url(../images/watch.png);
     align-items: center;
     margin-left: 130px;
+    margin-right: 130px;
     border-radius: 5px;
     position: relative
 }
@@ -148,4 +149,76 @@ main section {
     border-radius: 5px;
     border: none;
     font-weight: 700px;
+}
+
+/* footer relted style */
+
+footer{
+    width: 1600px;
+    height: 400px;
+    background-color: #151414;
+    color: aliceblue;
+    display: flex;
+    gap: 130px;
+    margin-top: 150px;
+    padding: 140px 200px;
+}
+.footer-content{
+    width: 50%;
+}
+.footer-title{
+  width: 140px;
+  height: 50px;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.footer-dis{
+    width: 450px;
+    height: 75px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+.contact-mail{
+    width: 180px;
+    height: 25px;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.contact-phone{
+    width: 180px;
+    height: 25px;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.footer-column{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+.contact-form input[type="text"]{
+    width: 225px;
+    height: 54px;
+    border-radius: 5px;
+}
+.btn-end{
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 16px;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    border: 0px;
+    background-color: #005FAc;
+    color: #fff;
 }
