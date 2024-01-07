@@ -151,17 +151,16 @@ main section {
     font-weight: 700px;
 }
 
-/* footer relted style */
-
 footer{
-    width: 1600px;
-    height: 400px;
+    width: 1200px;
+    height: 250px;
     background-color: #151414;
     color: aliceblue;
     display: flex;
     gap: 130px;
     margin-top: 150px;
     padding: 140px 200px;
+    position: relative;
 }
 .footer-content{
     width: 50%;
@@ -213,7 +212,7 @@ footer{
     width: 120px;
     height: 50px;
     border-radius: 5px;
-    position: relative;
+    position: absolute;
     margin-top: 16px;
     margin-right: 20px;
     font-size: 15px;
