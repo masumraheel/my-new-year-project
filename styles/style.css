@@ -75,13 +75,14 @@ main section {
 }
 .failure-face img{
     max-width: 451px;
-    margin-left: 100px;
+    margin-left: 150px;
     padding-top: 140px;
 }
 .failure-content{
     text-align: left;
     position: relative;
     top: 20%;
+    margin: 0 auto;
 }
 
 .failure-title{
@@ -120,12 +121,10 @@ main section {
     margin-left: 150px;
 }
 .plan-container{
-    width: 70%;
+    margin-left: 150px;
     max-width: 1140px;
     display: flex;
     justify-content: space-between;
-    padding-left: 250px;
-    padding-right: 230px;
     margin-top: 30px;
 }
 .contact-image{
