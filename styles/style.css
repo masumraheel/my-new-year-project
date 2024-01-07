@@ -3,14 +3,19 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+header{
+    width: 100%;
+    max-width: 1600px;
 
+}
 .banner{
-    width: 1600px;
+    width:1600px;
     height: 800px;
     background: url("../images/banner/banner3.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    vertical-align: middle;
 }
 .banner-content{
     padding: 50px 50px 0 330px;
@@ -20,23 +25,24 @@
     justify-content: space-around;
 }
 .banner-title{
-    width: 500px;
-    height: 250px;
-    font-size:60px;
+    width: 33%;
+    max-width: 525px;
+    height: 220px;
+    font-size: 50px;
     text-align: right;
     position: relative;
     padding-top: 150px;
-    padding-right: 170px;
+    margin-right: 220px;
     font-weight: 700;
     margin-bottom: 30px;
 }
 .banner-dis{
-    width: 400px;
+    width: 30%;
+    max-width: 494px;
+    height: 70px;
+    margin-right: 220px;
     text-align: right;
-    position: relative;
-    font-size: 16px;
-    margin-top: 10px;
-    padding-right: 180px;
+    font-size: 13px;
 }
 .banner-btn{
     width: 120px;
@@ -44,8 +50,7 @@
     border-radius: 5px;
     position: relative;
     margin-top: 20px;
-    margin-right: 20px;
-    right: 14%;
+    margin-right: 220px;
     font-size: 15px;
     font-weight: 700;
     border: 0px;
@@ -65,12 +70,12 @@ main section {
 .main-content{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 35px;
+    justify-content:space-around;
+    gap: 40px;
 }
 .failure-face img{
-    width: 450px;
-    padding-left: 250px;
+    max-width: 451px;
+    margin-left: 100px;
     padding-top: 140px;
 }
 .failure-content{
@@ -81,11 +86,10 @@ main section {
 
 .failure-title{
     width: 280px;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 700;
     color: #151414;
-    padding-left: 134px;
-    padding-right: 450px;
+    padding-left: 250px;
     margin-bottom: 0;
 }
 .failure-description{
@@ -113,8 +117,11 @@ main section {
     text-align: center;
     font-size: larger;
     font-weight:bolder;
+    margin-left: 150px;
 }
 .plan-container{
+    width: 70%;
+    max-width: 1140px;
     display: flex;
     justify-content: space-between;
     padding-left: 250px;
@@ -196,6 +203,10 @@ footer{
     font-weight: 400;
     margin-bottom: 10px;
 }
+.social-link{
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
 
 .footer-column{
     color: #FFF;
@@ -212,7 +223,6 @@ footer{
     width: 120px;
     height: 50px;
     border-radius: 5px;
-    position: absolute;
     margin-top: 16px;
     margin-right: 20px;
     font-size: 15px;
